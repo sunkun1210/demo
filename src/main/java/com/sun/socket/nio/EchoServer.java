@@ -16,6 +16,7 @@ import java.util.Set;
 
 /**
  * 使用非阻塞模式的SocketChannel,ServerSocketChannel.
+ * https://ifeve.com/channels/
  */
 public class EchoServer {
     private Selector selector = null;
