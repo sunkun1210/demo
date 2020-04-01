@@ -6,7 +6,7 @@ import java.net.Socket;
 
 public class TCPClient {
     public static void main(String[] args) throws Exception {
-        Socket s = new Socket("127.0.0.1", 6666);
+        Socket s = new Socket("127.0.0.1", 8001);
         OutputStream os = s.getOutputStream();
         DataOutputStream dos = new DataOutputStream(os);
         Thread.sleep(10000);
