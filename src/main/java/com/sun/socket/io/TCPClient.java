@@ -9,7 +9,7 @@ public class TCPClient {
         Socket s = new Socket("127.0.0.1", 6666);
         OutputStream os = s.getOutputStream();
         DataOutputStream dos = new DataOutputStream(os);
-        Thread.sleep(30000);
+        Thread.sleep(10000);
         dos.writeUTF("hello server!");
         dos.flush();
         dos.close();
